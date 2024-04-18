@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(30, 30, 32);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu'sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitemscontainer {
+    margin-top: 34px;
+}
+
+.songItem {
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: auto;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 768px) {
+    .songinfo {
+        left: 5vw; /* Adjust the left position */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .songinfo {
+        position: static; /* Reset position to static */
+        text-align: center; /* Center align song info */
+        margin-top: 10px; /* Add some margin */
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+}
